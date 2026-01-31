@@ -60,13 +60,6 @@
             font-size: 1.1em;
             transition: all 0.3s;
         }
-        .btn-primary {
-            background: #e74c3c;
-        }
-        .btn-primary:hover {
-            background: #c0392b;
-            transform: scale(1.05);
-        }
         .btn-secondary {
             background: #95a5a6;
         }
@@ -90,6 +83,28 @@
         .steps li {
             margin: 12px 0;
             line-height: 1.6;
+        }
+        .app-instructions {
+            background: #e8f5e9;
+            border: 2px solid #4caf50;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 30px 0;
+            text-align: left;
+        }
+        .app-instructions h3 {
+            color: #2e7d32;
+            margin-bottom: 15px;
+        }
+        .app-path {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-family: 'Courier New', monospace;
+            color: #667eea;
+            font-weight: bold;
+            border-left: 4px solid #667eea;
         }
         footer {
             margin-top: 40px;
@@ -118,35 +133,48 @@
             </p>
         </div>
         
-        <div class="steps">
-            <h3>📝 How to Delete Your Account</h3>
+        <div class="app-instructions">
+            <h3>📱 How to Delete Your Account</h3>
+            <p>
+                Account deletion is only available through the app to ensure security and prevent unauthorized deletions.
+            </p>
+            
+            <div class="app-path">
+                Settings → Account → Delete Account
+            </div>
+            
+            <p><strong>Follow these steps in the app:</strong></p>
             <ol>
-                <li>
-                    Send an email to: <strong>oados112@gmail.com</strong>
-                </li>
-                <li>
-                    Subject line: <strong>"Delete My Account"</strong>
-                </li>
-                <li>
-                    Include your registered email address in the message
-                </li>
-                <li>
-                    We will process your request and delete all data within <strong>7 business days</strong>
-                </li>
-                <li>
-                    You will receive a confirmation email once deletion is complete
-                </li>
+                <li>Open the <strong>Mythic Season</strong> app on your device</li>
+                <li>Go to <strong>Settings</strong> (gear icon)</li>
+                <li>Tap on <strong>Account</strong></li>
+                <li>Scroll down and tap <strong>Delete Account</strong></li>
+                <li>Confirm your decision</li>
+                <li>Your account and all data will be permanently deleted immediately</li>
             </ol>
         </div>
         
+        <div class="steps">
+            <h3>ℹ️ Important Notes</h3>
+            <ul style="list-style: none; padding-left: 0;">
+                <li style="margin: 15px 0;">
+                    <strong>✓ Immediate Deletion:</strong> Your account will be deleted instantly upon confirmation
+                </li>
+                <li style="margin: 15px 0;">
+                    <strong>✓ No Recovery:</strong> Once deleted, your account cannot be recovered
+                </li>
+                <li style="margin: 15px 0;">
+                    <strong>✓ In-App Only:</strong> For security reasons, deletion is only available through the app
+                </li>
+                <li style="margin: 15px 0;">
+                    <strong>✓ Must Be Logged In:</strong> You must be logged in to delete your account
+                </li>
+            </ul>
+        </div>
+        
         <div>
-            <a href="mailto:oados112@gmail.com?subject=Delete%20My%20Account&body=I%20request%20permanent%20deletion%20of%20my%20account%20and%20all%20associated%20data.%0A%0ARegistered%20Email%3A%20%5BYOUR_EMAIL_HERE%5D%0A%0AThank%20you." 
-               class="btn btn-primary">
-                📧 Send Deletion Request
-            </a>
-            <br>
             <a href="index.html" class="btn btn-secondary">
-                ← Cancel
+                ← Back to Home
             </a>
         </div>
         
