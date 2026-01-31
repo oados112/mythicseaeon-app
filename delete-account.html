@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Account - Mythic Season</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 700px;
+            margin: 50px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        h1 {
+            color: #e74c3c;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+        .warning {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 30px 0;
+            text-align: right;
+        }
+        .warning h3 {
+            color: #856404;
+            margin-bottom: 10px;
+        }
+        .warning ul {
+            text-align: right;
+            padding-right: 20px;
+        }
+        .warning li {
+            margin: 8px 0;
+            color: #856404;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 40px;
+            margin: 15px 10px;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: all 0.3s;
+        }
+        .btn-primary {
+            background: #e74c3c;
+        }
+        .btn-primary:hover {
+            background: #c0392b;
+            transform: scale(1.05);
+        }
+        .btn-secondary {
+            background: #95a5a6;
+        }
+        .btn-secondary:hover {
+            background: #7f8c8d;
+        }
+        .steps {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 30px 0;
+            text-align: right;
+        }
+        .steps h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        .steps ol {
+            padding-right: 20px;
+        }
+        .steps li {
+            margin: 12px 0;
+            line-height: 1.6;
+        }
+        footer {
+            margin-top: 40px;
+            color: #666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🗑️ מחיקת חשבון</h1>
+        <h2>Delete Account - Mythic Season</h2>
+        
+        <div class="warning">
+            <h3>⚠️ אזהרה / Warning</h3>
+            <p><strong>עברית:</strong> מחיקת החשבון תגרום ל:</p>
+            <ul>
+                <li>מחיקת כל התקדמות המשחק</li>
+                <li>אובדן כל המטבעות והיהלומים</li>
+                <li>הסרה מטבלת המובילים</li>
+                <li>מחיקה סופית של כל הנתונים</li>
+            </ul>
+            <p><strong>English:</strong> Deleting your account will result in:</p>
+            <ul>
+                <li>Loss of all game progress</li>
+                <li>Loss of all coins and diamonds</li>
+                <li>Removal from leaderboards</li>
+                <li>Permanent deletion of all data</li>
+            </ul>
+        </div>
+        
+        <div class="steps">
+            <h3>📝 איך למחוק חשבון / How to Delete Account</h3>
+            <ol>
+                <li>
+                    <strong>עברית:</strong> שלח מייל ל: support@mythicseason.com<br>
+                    <strong>English:</strong> Send email to: support@mythicseason.com
+                </li>
+                <li>
+                    <strong>עברית:</strong> נושא: "מחיקת חשבון"<br>
+                    <strong>English:</strong> Subject: "Delete My Account"
+                </li>
+                <li>
+                    <strong>עברית:</strong> כלול את כתובת המייל שלך ברישום<br>
+                    <strong>English:</strong> Include your registered email address
+                </li>
+                <li>
+                    <strong>עברית:</strong> נמחק את כל הנתונים תוך 7 ימי עסקים<br>
+                    <strong>English:</strong> We will delete all data within 7 business days
+                </li>
+            </ol>
+        </div>
+        
+        <div>
+            <a href="mailto:support@mythicseason.com?subject=Delete%20My%20Account&body=I%20request%20deletion%20of%20my%20account%20and%20all%20associated%20data.%0A%0ARegistered%20Email%3A%20%5BYOUR_EMAIL%5D" 
+               class="btn btn-primary">
+                📧 שלח בקשת מחיקה / Send Deletion Request
+            </a>
+            <br>
+            <a href="index.html" class="btn btn-secondary">
+                ← ביטול / Cancel
+            </a>
+        </div>
+        
+        <footer>
+            <p>
+                💬 שאלות? יש בעיה?<br>
+                Questions? Having issues?<br>
+                <a href="mailto:support@mythicseason.com">support@mythicseason.com</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
